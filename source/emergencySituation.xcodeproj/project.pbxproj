@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24AB58B2740CC8A004FE48F /* Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24AB58A2740CC8A004FE48F /* Map.xib */; };
+		C24AB58D2740CCD8004FE48F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AB58C2740CCD8004FE48F /* MapViewController.swift */; };
 		C2ABF32E273EDAAC00DCA454 /* emergencySituationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ABF32D273EDAAC00DCA454 /* emergencySituationApp.swift */; };
 		C2ABF330273EDAAC00DCA454 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ABF32F273EDAAC00DCA454 /* ContentView.swift */; };
 		C2ABF332273EDAAD00DCA454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ABF331273EDAAD00DCA454 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C24AB58A2740CC8A004FE48F /* Map.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Map.xib; sourceTree = "<group>"; };
+		C24AB58C2740CCD8004FE48F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2ABF32A273EDAAC00DCA454 /* emergencySituation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emergencySituation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2ABF32D273EDAAC00DCA454 /* emergencySituationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencySituationApp.swift; sourceTree = "<group>"; };
 		C2ABF32F273EDAAC00DCA454 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				C2ABF32F273EDAAC00DCA454 /* ContentView.swift */,
 				C2ABF331273EDAAD00DCA454 /* Assets.xcassets */,
 				C2ABF333273EDAAD00DCA454 /* Preview Content */,
+				C24AB58A2740CC8A004FE48F /* Map.xib */,
+				C24AB58C2740CCD8004FE48F /* MapViewController.swift */,
 			);
 			path = emergencySituation;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24AB58B2740CC8A004FE48F /* Map.xib in Resources */,
 				C2ABF335273EDAAD00DCA454 /* Preview Assets.xcassets in Resources */,
 				C2ABF332273EDAAD00DCA454 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2ABF330273EDAAC00DCA454 /* ContentView.swift in Sources */,
+				C24AB58D2740CCD8004FE48F /* MapViewController.swift in Sources */,
 				C2ABF32E273EDAAC00DCA454 /* emergencySituationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
